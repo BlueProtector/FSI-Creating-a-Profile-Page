@@ -5,6 +5,6 @@ header.append('Rizzo')
 content.append(header)
 
 let image = document.createElement('img')
-header.setAttribute('class', 'dog-image')
-header.append('Rizzo')
+image.setAttribute('class', 'dog-image')
+image.append('rizzo.jpg')
 content.append(image)
