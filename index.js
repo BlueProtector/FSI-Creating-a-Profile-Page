@@ -4,4 +4,8 @@ header.setAttribute('class', 'dog-name')
 header.append('Rizzo')
 content.append(header)
 
-let image = document.childern[1]
+let image = document.querySelector('.js-generated.content')
+let photo = document.createElement('image')
+header.setAttribute('class', 'dog-image')
+header.append('Rizzo')
+content.append(image)
